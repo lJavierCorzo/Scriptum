@@ -1,0 +1,42 @@
+.marginNavTop {
+  margin-top: 85px;
+}
+.toggle-button {
+  position: fixed;
+  top: 10px;
+  left: 105px;
+}
+
+.sidebar .nav-link.active {
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+}
+
+.sidebar-link,
+.sidebar-sublink {
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+}
+
+.sidebar-link .bi-chevron-down {
+  transition: transform 0.3s;
+}
+
+.sidebar-link .rotate {
+  transform: rotate(180deg);
+}
+
+.sidebar-sublink {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-sublink i {
+  margin-right: 0.5rem;
+}
+.sidebar .list-group-item {
+  border-radius: 0;
+  margin-bottom: 0;
+  border: 1px solid #dee2e6;
+}
